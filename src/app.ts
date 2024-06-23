@@ -3,6 +3,7 @@ import fastifyJwt from "@fastify/jwt";
 import 'dotenv/config'
 import {usersRoutes} from './http/controllers/users/routes'
 
+
 export const app = fastify()
 
 app.get('/', async (request, reply) => {
