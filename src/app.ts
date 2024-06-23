@@ -1,5 +1,6 @@
 import fastify from 'fastify'
 import fastifyJwt from "@fastify/jwt";
+import 'dotenv/config'
 import {usersRoutes} from './http/controllers/users/routes'
 
 export const app = fastify()
